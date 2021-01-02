@@ -1,0 +1,105 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+}
+
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 7.5em;
+}
+  
+.tab {
+    float: left;
+    margin: 1.5em 4em 1.5em 10em;
+    font-size: 1.25rem;
+}
+  
+.tab a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.tab a:hover {
+    background-color: #111;
+}
+
+.main {
+    position:relative;
+}
+
+.col-1-4 {
+    width: 23.9%;
+    float: left;
+    margin: 10px;
+    height: 425px;
+}
+
+
+
+.house{
+    max-width:100%;
+    
+}
+
+.house-info {
+    position: relative;
+    background-color: rgba(40, 44, 52, .4);
+    bottom: 140px;
+    color: white;
+    
+    padding: 0px;
+    
+}
+
+.house-info2 {
+    position: relative;
+    background-color: rgba(40, 44, 52, .4);
+    bottom: 140px;
+    color: white;
+    
+    padding: 0px;
+    
+}
+
+
+
+.left {
+    text-align: left;
+    line-height: 0;
+}
+
+.right {
+    text-align: right;
+    position: relative;
+    bottom: 5px;
+    line-height: 0;
+    
+}
+
+.address {
+    font-size: 1.875rem;
+}
+
+.bed { 
+    font-size: 1.125rem;
+}
+
+.bath {
+    font-size: 1.125rem;
+}
+
+.rent {
+    font-size: 1.25rem;
+}
+
+.avail {
+    font-size: 1.25rem;
+}
